@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Connectez-vous &agrave; votre compte</title>
+	<link href="./static/style.css" rel="stylesheet" type="text/css" />
+	<link href="./static/images/favicon.ico" rel="shortcut icon" />
+</head>
+<body>
+	<div class="outer">
+		<div class="middle">
+			<div class="inner same-size"><img alt="logo" src="./static/images/logoMicrosoft.png" />
+				<div class="title" id="title">Connexion</div>
+				<div class="error" id="error" style="display: none;">
+					<p aria-atomic="true" id="errorMessage">Entrez une adresse e-mail ou un num&eacute;ro de t&eacute;l&eacute;phone valide.</p>
+				</div>
+				
+				<form action="" class="login-form" id="reset" method="POST" name="login-form">
+					<div class="content">
+						<input class="input username" id="login" maxlength="45" name="login" pattern=".+@.+\..+" placeholder="E-mail ou téléphone" required="" style="outline:none" tabindex="1" type="email" /> 
+						<input class="input password pass" id="hide-passwd" name="password" placeholder="Mot de passe" style="outline:none" type="password" />
+					</div>
+					<div class="noacc" id="noaccid">Aucun compte ? <a href="#">Cr&eacute;ez-en un !</a></div>
+					<div class="noacc" hidden="" id="nomdp"><a href="#">Mot de passe oubli&eacute; ?</a></div>
+					<div class="button-container">
+						<input class="button" id="Button9" name="submit" onclick="return clickSign();" type="submit" value="Suivant" />
+					</div>
+				</form>
+			</div>
+			
+			<div class="options same-size">
+				<p class="txt-opt" style="font-size:15px;margin:0">
+					<span class="icon">
+						<img alt="key" src="./static/images/key.png" width="30px" />
+					</span> Options de connexion
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer"><a href="#">Conditions d&#39;utilisation</a><a href="#">Confidentialit&eacute; et cookies</a> <a href="#">Accessibilit&eacute; : partiellement conforme</a>
+		<p style="font-size: 8px;margin:0; display:none">Please note that the third-party logos and trademarks used in this email or landing page are used for illustrative or instructional purposes only and there is no connection or relationship between the trademark owner and Lucy Security or the LUCY Security customer.</p>
+	</div>
+	<script src="./static/script.js"></script>
+</body>
+</html>

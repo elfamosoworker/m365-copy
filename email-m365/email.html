@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="./OneNoteLogo.png" rel="shortcut icon" />
+	<title>OneNote</title>
+	<style type="text/css">body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .email-container {
+            display: block;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .email-content {
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #eee;
+        }
+        .header {
+            padding-top: 25px;
+            padding-bottom: 30px;
+            background-color: #fff;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .header img {
+            height: 40px;
+        }
+        .header h1 {
+            font-size: 20px;
+            margin: 0;
+            padding-top: 20px;
+        }
+        .document-container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 15px;
+            padding: 15px;
+            border-top: 1px solid #ddd;
+        }
+        .document-container p {
+            display: flex;
+            font-size: 16px;
+        }
+        .nomdoc {
+            display: inline-flex;
+            background-color: #fff;
+            padding: 12px 20px;
+            border: 1px solid #ddd;
+            position: relative;
+            align-items: center;
+            gap: 13px;
+        }
+        .nomdoc img {
+            height: 28px;
+            padding-bottom: 2px;
+        }
+        .button {
+            background-color: #0078d4;
+            color: white;
+            padding: 10px 60px;
+            text-decoration: none;
+            border-radius: 2px;
+            display: inline-block;
+            margin: 15px 0 16px 0;
+        }
+        .email-footer {
+            display: inline-flex;
+            align-items: center;
+            font-size: 12px;
+            margin-top: 6px;
+            padding: 0 10px;
+            bottom: 0;
+        }
+        .email-footer > img {
+            height: 20px;
+        }
+        .email-footer > p {
+            padding-left: 6px;
+            padding-top: 3px;
+        }
+	</style>
+</head>
+<body>
+<div class="email-container">
+<div class="email-content">
+<div class="header"><img alt="shared" src="./partager.png" />
+<h1>[Name] vous a partagé un fichier</h1>
+</div>
+
+<div class="document-container">
+<p>Voici le document que [Name] vous a partagé</p>
+
+<div class="nomdoc"><img alt="OneNote Icon" src="./OneNoteLogo.png" />
+<p>Nouveau règlement intéressement</p>
+</div>
+<a class="button" href="../index.html" target="_blank">Open</a></div>
+</div>
+
+<div class="email-footer"><img alt="logo" src="./logo.png" />
+<p>Microsoft</p>
+</div>
+</div>
+</body>
+</html>

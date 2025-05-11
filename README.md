@@ -6,10 +6,12 @@ Ce dépôt contient une **simulation fidèle** d’une page de connexion Microso
 
 ## ⚠️ Avertissement
 
-> Ce projet est **strictement réservé à un usage légal, éthique et encadré**.  
+Ce projet est **strictement réservé à un usage légal, éthique et encadré**.  
 > Il est destiné aux professionnels de la cybersécurité, aux pentesters et aux équipes de sensibilisation (Awareness) pour **simuler des attaques de type phishing dans des environnements maîtrisés**.
 
-**⚠️ Interdiction absolue de l’utiliser contre des cibles réelles sans consentement explicite.**
+**⚠️ Interdiction de l’utiliser contre des cibles réelles sans consentement explicite.**
+
+<br>
 
 ---
 
@@ -20,7 +22,7 @@ Ce dépôt contient une **simulation fidèle** d’une page de connexion Microso
 - `static/script.js` : logique client (affichage erreurs, interactions)
 - `static/images/` : logos et icônes simulés pour un rendu crédible
 
----
+<br>
 
 ## 🎯 Objectifs pédagogiques
 

@@ -15,12 +15,14 @@ Ce projet est **strictement réservé à un usage légal, éthique et encadré**
 
 ---
 
-## 🧰 Contenu du projet
+## 📂 Structure du projet
 
-- `index.html` : structure de la fausse page Microsoft
-- `static/style.css` : design reprenant les codes visuels d’un site légitime
-- `static/script.js` : logique client (affichage erreurs, interactions)
-- `static/images/` : logos et icônes simulés pour un rendu crédible
+- `site/` → **Fausse page de connexion Microsoft**
+  - Reproduction fidèle de l’interface utilisateur de connexion M365
+  - Utilisée pour tester la réaction des utilisateurs face à des pages frauduleuses
+- `email/` → **Modèles d’e-mails de phishing Microsoft 365**
+  - Faux mails HTML imitant les notifications de connexion, de mot de passe expiré, etc.
+  - Conçus pour être envoyés dans un environnement contrôlé et évaluer le comportement des destinataires
 
 <br>
 

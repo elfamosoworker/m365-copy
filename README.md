@@ -20,11 +20,15 @@ Ce projet est **strictement réservé à un usage légal, éthique et encadré**
 - `site/` → **Fausse page de connexion Microsoft**
   - Reproduction fidèle de l’interface utilisateur de connexion M365
   - Utilisée pour tester la réaction des utilisateurs face à des pages frauduleuses
+ <br>
+ 
 - `email/` → **Modèles d’e-mails de phishing Microsoft 365**
   - Faux mails HTML imitant les notifications de connexion, de mot de passe expiré, etc.
   - Conçus pour être envoyés dans un environnement contrôlé et évaluer le comportement des destinataires
 
 <br>
+
+---
 
 ## 🎯 Objectifs pédagogiques
 

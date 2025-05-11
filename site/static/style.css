@@ -21,6 +21,7 @@ body {
     height: 100%;
     width: 100%;
 }
+
 .middle {
 	display: table-cell;
     vertical-align: middle;
